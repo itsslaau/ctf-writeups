@@ -1,0 +1,59 @@
+# === Credenciales y secretos — NUNCA subir ===
+*.ovpn
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.kdbx
+id_rsa*
+*.gpg
+credentials*
+creds*
+secrets*
+*.env
+.env*
+
+# === Loot / evidencias con datos sensibles ===
+loot/
+dumps/
+*.sql
+*.dump
+hashes.txt
+passwords.txt
+shadow
+*_shadow
+
+# === Salidas de herramientas (regenerables / ruidosas) ===
+nmap/
+*.nmap
+*.gnmap
+*.xml.bak
+ferox*.txt
+gobuster*.txt
+ffuf*.json
+
+# === Binarios y descargas ===
+*.bin
+*.exe
+*.elf
+*.zip
+*.tar.gz
+*.7z
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editores ===
+.vscode/
+.idea/
+*.swp
+*~
+
+# === Python (scripts auxiliares) ===
+__pycache__/
+*.pyc
+venv/
+.venv/
